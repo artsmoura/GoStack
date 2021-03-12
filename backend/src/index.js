@@ -6,6 +6,12 @@ app.use(express.json());
 
 const lessons = [];
 
+function logResponse(request, response, next){
+
+                                                                                                                              
+
+}
+
 app.get('/lessons', (request, response) => {
 
     const { title } = request.query;
